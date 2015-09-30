@@ -22,8 +22,10 @@
   "homepage": "https://github.com/auth0/node-auth0",
   "dependencies": {
     "bluebird": "^2.9.24",
+    "dotenv": "^1.2.0",
     "mocha": "^2.2.4",
     "superagent": "^1.1.0",
+    "underscore": "^1.8.3",
     "url-join": "0.0.1"
   },
   "devDependencies": {

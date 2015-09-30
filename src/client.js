@@ -1,4 +1,5 @@
 var Users = require('./users');
+var Connections = require('./connections');
 var util = require('util');
 var utils = require('./utils');
 
@@ -33,5 +34,6 @@ function Client(options){
 }
 
 utils.subEntity(Client, 'users', Users);
+utils.subEntity(Client, 'connections', Connections);
 
 module.exports = Client;
